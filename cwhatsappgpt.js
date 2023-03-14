@@ -23,8 +23,8 @@ client.on("ready", () => {
 
 (async () => {
   const api = new ChatGPTAPIBrowser({
-    email: emaiL, //Your Password
-    password: password //Your Email
+    email: emaiL, //Your password
+    password: password //Your email
   })
 
   await api.initSession()
